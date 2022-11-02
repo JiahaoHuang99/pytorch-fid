@@ -5,7 +5,7 @@ import setuptools
 
 def read(rel_path):
     base_path = os.path.abspath(os.path.dirname(__file__))
-    with open(os.path.join(base_path, rel_path), 'r') as f:
+    with open(os.path.join(base_path, rel_path), 'r', encoding='utf-8') as f:
         return f.read()
 
 
